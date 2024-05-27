@@ -16,11 +16,11 @@ export default function Hero() {
         <meta name="description" content="Explore the world with us!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="fixed top-0 left-0 w-full bg-darkGreen text-white py-4">
+      <header className="fixed top-0 left-0 w-full bg-darkGreen text-white p-4">
         <nav className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">AL-EHED</div>
           {/* Hamburger menu icon for mobile */}
-          <div className="block lg:hidden">
+          <div className="block px-4 lg:hidden">
             <button onClick={toggleMenu} className="text-white focus:outline-none">
               <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
                 {isMenuOpen ? (
