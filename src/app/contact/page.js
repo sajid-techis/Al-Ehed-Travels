@@ -10,7 +10,7 @@ export default function ContactUs() {
         <meta name="description" content="Get in touch with AL-EHED Tour And Travels. Find our contact information and location on the map." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" id='contact'>
         <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
         <div className="flex flex-col md:flex-row gap-8">
           {/* Map Section */}

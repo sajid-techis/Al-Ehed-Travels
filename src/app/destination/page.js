@@ -35,13 +35,13 @@ const destinationsData = [
 
 export default function Destinations() {
   return (
-    <div className="min-h-screen bg-gold py-8">
+    <div className="min-h-screen bg-gold py-8 " >
       <Head>
         <title>Destinations - AL-EHED Tour And Travels</title>
         <meta name="description" content="Explore the holy destinations in Mecca and Medina during Umrah." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" id='destination'>
         <h1 className="text-4xl font-bold text-center mb-8 text-black">Destinations in Mecca and Medina</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {destinationsData.map((destination, index) => (

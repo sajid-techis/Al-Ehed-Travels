@@ -16,7 +16,6 @@ export default function Home() {
    <Packages/>
    <Reviews/>
    <ContactUs/>
-   <Footer/>
    </>
   );
 }
